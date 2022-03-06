@@ -1,0 +1,13 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "custom/diamond_hoe"
+	},
+	"overrides": [
+		{ "predicate": { "damage": 0 }, "model": "items/diamond_hoe" },
+		{ "predicate": {"damaged": 0, "damage": 0.0006402048655569782}, "model": "custom/sunglass"},
+		{ "predicate": {"damaged": 0, "damage": 0.0012804097311139564}, "model": "custom/rainbowglass"},
+		{ "predicate": {"damaged": 0, "damage": 0.0019206145966709346}, "model": "custom/wheat"},
+		{ "predicate": { "damaged": 1 }, "model": "items/diamond_hoe" }
+	]
+}
